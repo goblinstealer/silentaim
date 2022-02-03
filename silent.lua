@@ -20,9 +20,9 @@ Drawing = Drawing
 local FOV_CIRCLE = Drawing.new("Circle")
 FOV_CIRCLE.Visible = true
 FOV_CIRCLE.Filled = false
-FOV_CIRCLE.Thickness = 0
-FOV_CIRCLE.Transparency = 0
-FOV_CIRCLE.Color = Color3.new(255, 0, 0)
+FOV_CIRCLE.Thickness = 1
+FOV_CIRCLE.Transparency = 0.2
+FOV_CIRCLE.Color = Color3.new(255, 255, 255)
 FOV_CIRCLE.Radius = _G.FOV
 FOV_CIRCLE.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
 
